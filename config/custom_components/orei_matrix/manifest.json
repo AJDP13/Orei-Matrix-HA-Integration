@@ -1,0 +1,8 @@
+{
+  "domain": "orei_matrix",
+  "name": "Orei HDMI Matrix",
+  "version": "0.0.1",
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "requirements": []
+}

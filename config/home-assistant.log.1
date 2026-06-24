@@ -1,0 +1,134 @@
+2026-06-24 21:47:22.158 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration example_select which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-06-24 21:47:22.159 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration orei_matrix which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-06-24 21:47:22.518 WARNING (MainThread) [aiohttp_fast_zlib] zlib_ng and isal are not available, falling back to zlib, performance will be degraded.
+2026-06-24 21:47:22.605 WARNING (ImportExecutor_0) [py.warnings] /Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/asyncinotify/_ffi.py:80: UserWarning: inotify is a Linux, FreeBSD or z/OS API.  You can package this library on other platforms, but not run it.
+  warnings.warn('inotify is a Linux, FreeBSD or z/OS API.  You can package this library on other platforms, but not run it.')
+
+2026-06-24 21:47:22.781 ERROR (MainThread) [bleak_retry_connector.bluez] Failed to stop discovery for Core Bluetooth because no manager
+2026-06-24 21:47:23.401 ERROR (MainThread) [homeassistant.config_entries] Error importing platform config_flow from integration analytics to set up analytics configuration entry: Platform analytics.config_flow not found
+2026-06-24 21:47:28.473 ERROR (Recorder) [homeassistant.components.recorder.util] Error executing query: (sqlite3.DatabaseError) database disk image is malformed
+[SQL: SELECT state_attributes.attributes_id, state_attributes.shared_attrs 
+FROM state_attributes 
+WHERE state_attributes.hash IN (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (2936183429, 2451780357, 2753560069, 584162698, 2983833613, 191758862, 628161935, 1579168141, 3079208980, 68705300, 474857749, 2785124891, 1182285467, 2710749727, 2566939686, 249478696, 233377066, 1985162412, 1972747828, 3343167288, 1454287034, 2024738749, 102771010, 1770683203, 158986564, 3449179849, 1705234634, 227231307, 495650508, 79572949, 3192041688, 4174203225, 1839354080, 2024764129, 4266851296, 2441606630, 3205444456, 558523882, 4223934708, 1475407227)]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-06-24 21:47:28.587 ERROR (Recorder) [homeassistant.components.recorder.util] Error executing query: (sqlite3.DatabaseError) database disk image is malformed
+[SQL: SELECT state_attributes.attributes_id, state_attributes.shared_attrs 
+FROM state_attributes 
+WHERE state_attributes.hash IN (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (2936183429, 2451780357, 2753560069, 584162698, 2983833613, 191758862, 628161935, 1579168141, 3079208980, 68705300, 474857749, 2785124891, 1182285467, 2710749727, 2566939686, 249478696, 233377066, 1985162412, 1972747828, 3343167288, 1454287034, 2024738749, 102771010, 1770683203, 158986564, 3449179849, 1705234634, 227231307, 495650508, 79572949, 3192041688, 4174203225, 1839354080, 2024764129, 4266851296, 2441606630, 3205444456, 558523882, 4223934708, 1475407227)]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-06-24 21:47:28.692 ERROR (Recorder) [homeassistant.components.recorder.util] Error executing query: (sqlite3.DatabaseError) database disk image is malformed
+[SQL: SELECT state_attributes.attributes_id, state_attributes.shared_attrs 
+FROM state_attributes 
+WHERE state_attributes.hash IN (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (2936183429, 2451780357, 2753560069, 584162698, 2983833613, 191758862, 628161935, 1579168141, 3079208980, 68705300, 474857749, 2785124891, 1182285467, 2710749727, 2566939686, 249478696, 233377066, 1985162412, 1972747828, 3343167288, 1454287034, 2024738749, 102771010, 1770683203, 158986564, 3449179849, 1705234634, 227231307, 495650508, 79572949, 3192041688, 4174203225, 1839354080, 2024764129, 4266851296, 2441606630, 3205444456, 558523882, 4223934708, 1475407227)]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-06-24 21:47:28.692 ERROR (Recorder) [homeassistant.components.recorder.core] Recorder._run threw unexpected exception, recorder shutting down
+Traceback (most recent call last):
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.DatabaseError: database disk image is malformed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/homeassistant/components/recorder/core.py", line 677, in run
+    self._run()
+    ~~~~~~~~~^^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/homeassistant/components/recorder/core.py", line 803, in _run
+    self._run_event_loop()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/homeassistant/components/recorder/core.py", line 832, in _run_event_loop
+    self._pre_process_startup_events(startup_task_or_events)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/homeassistant/components/recorder/core.py", line 868, in _pre_process_startup_events
+    self.state_attributes_manager.load(state_change_events, session)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/homeassistant/components/recorder/table_managers/state_attributes.py", line 68, in load
+    self._load_from_hashes(hashes, session)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/homeassistant/components/recorder/table_managers/state_attributes.py", line 110, in _load_from_hashes
+    for attributes_id, shared_attrs in execute_stmt_lambda_element(
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        session, get_shared_attributes(hashs_chunk), orm_rows=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/homeassistant/components/recorder/util.py", line 171, in execute_stmt_lambda_element
+    executed = session.connection().execute(stmt)
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/sql/lambdas.py", line 594, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.DatabaseError: (sqlite3.DatabaseError) database disk image is malformed
+[SQL: SELECT state_attributes.attributes_id, state_attributes.shared_attrs 
+FROM state_attributes 
+WHERE state_attributes.hash IN (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (2936183429, 2451780357, 2753560069, 584162698, 2983833613, 191758862, 628161935, 1579168141, 3079208980, 68705300, 474857749, 2785124891, 1182285467, 2710749727, 2566939686, 249478696, 233377066, 1985162412, 1972747828, 3343167288, 1454287034, 2024738749, 102771010, 1770683203, 158986564, 3449179849, 1705234634, 227231307, 495650508, 79572949, 3192041688, 4174203225, 1839354080, 2024764129, 4266851296, 2441606630, 3205444456, 558523882, 4223934708, 1475407227)]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-06-24 21:48:11.120 ERROR (MainThread) [homeassistant.components.wled] No PONG received after 15.0 seconds
+2026-06-24 21:49:01.120 ERROR (MainThread) [homeassistant.components.wled] No PONG received after 15.0 seconds
+2026-06-24 21:49:25.213 WARNING (Thread-4 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_8] is still running at shutdown: File "/opt/homebrew/Cellar/python@3.13/3.13.14/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.14/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.14/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 995, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.14/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 93, in _worker
+    work_item.run()
+  File "/opt/homebrew/Cellar/python@3.13/3.13.14/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/pywemo/discovery.py", line 50, in discover_devices
+    for entry in ssdp.scan(**kwargs)
+  File "/Users/arundp/Desktop/orei-matrix-ha-integration/.venv/lib/python3.13/site-packages/pywemo/ssdp.py", line 188, in scan
+    ready = select.select(sockets, [], [], min(1, seconds_left))[0]

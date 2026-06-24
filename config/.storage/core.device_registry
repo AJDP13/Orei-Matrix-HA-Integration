@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "minor_version": 12,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {"area_id":null,"config_entries":["01KVXB36VJ9ZDPR1AE31DPTEWR"],"config_entries_subentries":{"01KVXB36VJ9ZDPR1AE31DPTEWR":[null]},"configuration_url":null,"connections":[],"created_at":"2026-06-24T17:33:24.211658+00:00","disabled_by":null,"entry_type":"service","hw_version":null,"id":"ef06dc5e6190692bc075b88e4240e003","identifiers":[["sun","01KVXB36VJ9ZDPR1AE31DPTEWR"]],"labels":[],"manufacturer":null,"model":null,"model_id":null,"modified_at":"2026-06-24T17:33:24.211690+00:00","name_by_user":null,"name":"Sun","primary_config_entry":"01KVXB36VJ9ZDPR1AE31DPTEWR","serial_number":null,"sw_version":null,"via_device_id":null},
+      {"area_id":null,"config_entries":["01KVXB3H5J97X2ZEXX4J8QPKSZ"],"config_entries_subentries":{"01KVXB3H5J97X2ZEXX4J8QPKSZ":[null]},"configuration_url":"homeassistant://config/backup","connections":[],"created_at":"2026-06-24T17:33:34.786738+00:00","disabled_by":null,"entry_type":"service","hw_version":null,"id":"c03574e31daff19db89f5675c80152bf","identifiers":[["backup","backup_manager"]],"labels":[],"manufacturer":"Home Assistant","model":"Home Assistant Backup","model_id":null,"modified_at":"2026-06-24T17:39:26.974379+00:00","name_by_user":null,"name":"Backup","primary_config_entry":"01KVXB3H5J97X2ZEXX4J8QPKSZ","serial_number":null,"sw_version":"2026.2.3","via_device_id":null},
+      {"area_id":null,"config_entries":["01KVXB3N57X6MVYNDDXDR2GHY9"],"config_entries_subentries":{"01KVXB3N57X6MVYNDDXDR2GHY9":[null]},"configuration_url":"http://192.168.1.187","connections":[["mac","b0:cb:d8:c1:85:e8"]],"created_at":"2026-06-24T17:33:39.289444+00:00","disabled_by":null,"entry_type":null,"hw_version":"esp32","id":"9e1c2054435f3b241c393b995dcfc130","identifiers":[["wled","b0cbd8c185e8"]],"labels":[],"manufacturer":"WLED","model":"FOSS","model_id":null,"modified_at":"2026-06-24T17:33:39.289516+00:00","name_by_user":null,"name":"dnet-wled-02","primary_config_entry":"01KVXB3N57X6MVYNDDXDR2GHY9","serial_number":null,"sw_version":"16.0.0","via_device_id":null},
+      {"area_id":null,"config_entries":["01KVXBFCH21470X6NN7P36DHER"],"config_entries_subentries":{"01KVXBFCH21470X6NN7P36DHER":[null]},"configuration_url":null,"connections":[["bluetooth","00:00:00:00:00:00"]],"created_at":"2026-06-24T17:40:03.234696+00:00","disabled_by":null,"entry_type":null,"hw_version":null,"id":"b8658c23dcf59c93570bce24bfa8302a","identifiers":[],"labels":[],"manufacturer":"Apple","model":"Unknown MacOS Model","model_id":null,"modified_at":"2026-06-24T17:40:03.234717+00:00","name_by_user":null,"name":"Core Bluetooth","primary_config_entry":"01KVXBFCH21470X6NN7P36DHER","serial_number":null,"sw_version":"24.6.0","via_device_id":null}
+    ],
+    "deleted_devices": []
+  }
+}
